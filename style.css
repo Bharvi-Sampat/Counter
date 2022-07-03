@@ -6,11 +6,13 @@
 }
 
 body {
+  background: #252525;
   font-family: "Roboto Mono", monospace;
 }
 
 h1,
 h2 {
+  color: white;
   font-weight: 600;
   font-size: 4rem;
 }
@@ -32,7 +34,6 @@ h2 {
 }
 
 .button {
-  /* font-size: 1rem; */
   margin: 10px;
   position: absolute;
   top: 55%;
@@ -42,7 +43,6 @@ h2 {
 
 @media only screen and (min-width: 600px) {
   .button {
-    /* font-size: 1rem; */
     margin: 0;
     position: absolute;
     top: 60%;
@@ -52,7 +52,6 @@ h2 {
 }
 @media only screen and (min-width: 768px) {
   .button {
-    /* font-size: 1rem; */
     margin: 0;
     position: absolute;
     top: 60%;
